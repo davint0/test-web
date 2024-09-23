@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-with open('C:/Users/DANNY/Desktop/Deployment_2_Material/model_pipeline.pkl', 'rb') as model_file:
+with open('model_pipeline.pkl', 'rb') as model_file:
     model_pipeline = pickle.load(model_file)
 
 
